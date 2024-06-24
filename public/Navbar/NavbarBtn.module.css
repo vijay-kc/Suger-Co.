@@ -1,0 +1,47 @@
+.navBtnClass {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navBtnClass .navBtnIcon {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.navBtnClass button {
+  background: rgb(1,212,1);
+  background: linear-gradient(90deg, rgba(1,212,1,1) 0%, rgba(3, 81, 3, 0.692) 100%);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+.navBtnClass button:Hover {
+  scale: 0.95;
+  transition: 0.3s ease-in;
+}
+
+.navBtnClass .logInBtn {
+  border-image: linear-gradient(90deg, rgba(1, 212, 1, 1) 0%, rgba(1, 42, 1, 0.6924019607843137) 100%) 10;
+  border-width: 2px;
+  border-style: solid;
+  background: transparent;
+}
+
+.navBtnClass .logInBtn:hover {
+  border: 2px solid rgba(17, 198, 17);
+  background-color: rgba(17, 198, 17);
+}
+
+@media (max-width: 769px) {
+  .navBtnClass {
+    display: none;
+  }
+}

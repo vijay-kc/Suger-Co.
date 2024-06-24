@@ -1,0 +1,70 @@
+.header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.shopText {
+  font-size: 40px;
+  font-weight: bold;
+  color: #015401;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a {
+  margin: 0 60px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.links a:hover {
+  color: #015401;
+  scale: 1.1;
+  font-weight: 500;
+}
+
+.ContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.Title {
+  margin-top: 100px;
+}
+
+.ImageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.ImageCard {
+  max-width: 250px;
+  margin: 30px;
+}
+
+.RoundedImage {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.SmallPara {
+  margin: 5px 0;
+  text-align: center;
+}

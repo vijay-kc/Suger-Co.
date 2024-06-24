@@ -1,0 +1,23 @@
+.menuClass {
+  margin: 4vh auto;
+  display: none;
+  align-items: center;
+}
+
+@media (max-width: 1025px) {
+  .menuClass {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 769px) {
+  .menuClass {
+    margin: 2.5vh auto;
+  }
+}
+
+/* @media (max-width: 426px) {
+  .menuClass {
+    margin: 2vh auto;
+  }
+} */

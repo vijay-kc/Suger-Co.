@@ -1,0 +1,32 @@
+.mainAboutClass {
+  max-width: 85vw;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.mainAboutClass h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.mainAboutClass p {
+  margin: 25px 0;
+  font-weight: 550;
+}
+
+.mainAboutClass .whyShopClass {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 70px 20px;
+}
+
+.mainAboutClass .whyShopClass div {
+  margin: 20px 0;
+}
+
+.mainAboutClass .whyShopClass div dd {
+  margin: 10px 20px 10px;
+}

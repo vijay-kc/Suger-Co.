@@ -1,0 +1,22 @@
+.navItemsClass div {
+  z-index: 100;
+}
+
+.navItemsClass div.insideNav {
+  background-color: #012A01;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.hamburgerClass {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .hamburgerClass {
+    display: inline-block;
+  }
+}

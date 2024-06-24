@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Iceberg', cursive;
+  background-color: #EEFFDE;
+}
+
+::selection {
+  background-color: rgb(18, 111, 111);
+  color: #fff;
+}

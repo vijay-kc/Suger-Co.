@@ -1,0 +1,9 @@
+.homeRightClass img {
+  /* background-color: blue; */
+}
+
+@media (max-width: 769px) {
+  .homeRightClass img {
+    display: none;
+  }
+}

@@ -1,0 +1,74 @@
+.header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.shopText {
+  font-size: 40px;
+  font-weight: bold;
+  color: #015401;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.links a {
+  margin: 0 60px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.links a:hover {
+  color: #015401;
+  scale: 1.1;
+  font-weight: 500;
+}
+
+.section {
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.section {
+  margin-bottom: 20px;
+  margin: 10px auto;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px auto;
+  justify-content: space-evenly;
+}
+
+
+.section h2 {
+  text-align: center;
+  margin: 100px 0;
+  font-size: 40px;  
+}
+
+.cardContainer div img {
+  max-width: 300px;
+}
+
+.cardContainer p {
+  text-align: center;
+}
+
+.card {
+  max-width: 300px;
+  flex: 1 1 200px;
+}

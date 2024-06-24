@@ -1,0 +1,37 @@
+.navbarLinksClass ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbarLinksClass li {
+  list-style-type: none;
+}
+
+.navbarLinksClass li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(162, 162, 162);
+  border: 1px solid #012A01;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  list-style-type: none; /* Add this line to remove the dot */
+}
+
+.navbarLinksClass li::marker {
+  list-style-type: none;
+}
+
+.navbarLinksClass li a:hover {
+  color: #01D401;
+  border-bottom-color: #01D401;
+  border-bottom-width:3px;
+}
+
+@media (max-width: 769px) {
+  .navbarLinksClass {
+    display: none;
+  }
+}

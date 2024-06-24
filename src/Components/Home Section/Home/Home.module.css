@@ -1,0 +1,23 @@
+.homeMainClass .homeClass {
+  top: -20px;
+  z-index: -10;
+}
+
+.homeMainClass .homeClass {
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 10vw;
+  top: -100px;
+}
+
+@media (max-width: 769px) {
+  .homeMainClass .homeClass {
+    top: 20vh;
+    right: 0;
+    flex-direction: column;
+  }
+}

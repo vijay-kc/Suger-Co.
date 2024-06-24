@@ -1,0 +1,10 @@
+.products div div img:hover {
+  scale: 0.95;
+  cursor: pointer;
+}
+
+.products div div div h3:hover {
+  scale: 1.1;
+  color: #01D401;
+  cursor: pointer;
+}
