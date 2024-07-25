@@ -20,28 +20,11 @@ This is a shopping frontend website built using React, Vite, and CSS. The websit
 * **State Management**: Redux
 * **Routing**: React Router
 
-**Getting Started**
----------------
-
-### Installation
-
-1. Clone the repository: `git clone https://github.com/vijay-kc/Suger-Co..git`
-2. Install dependencies: `npm install`
-3. Start the development server: `npm run dev`
-
-
-### Running the Application
-
-1. Start the development server: `npm run dev`
-2. Open the website in your browser: `http://localhost:3000`
 
 **Deployment**
 ------------
 
-### Production Build
-
-1. Run `npm run build` to create a production build of the application
-2. Deploy the build to your preferred hosting platform (e.g. Vercel, Netlify)
+1. Deployed the project on hosting platform (e.g. Vercel, Netlify)
 
 **Development**
 -------------
